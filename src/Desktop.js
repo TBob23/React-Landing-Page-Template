@@ -24,6 +24,8 @@ import {
 
 import { Context } from './store/Context'
 
+
+
 // props: image
 function FloatImageCol(props) {
     return (
@@ -48,12 +50,12 @@ function FloatTextCol(props) {
                     initial={{y: 300, opacity: 0}} 
                     whileInView={{y: 0, opacity: 1, transition: {type: 'spring', bounce: 0, duration: 1}}} 
                     viewport={{once: true}}>
-                <Row justify='center' style={{'padding': '0px 50px'}}>
+                <Row justify='center' style={{'padding': '0px 50px', 'backgroundColor': '#ffffff '}}> {/* Beispiel Hintergrundfarbe */}
                     <Typography.Title>
                         {props.title}
                     </Typography.Title>
                 </Row>
-                <Row justify='center' style={{'padding': '0px 50px'}}>
+                <Row justify='center' style={{'padding': '0px 50px', 'backgroundColor': '#ffffff '}}> {/* Beispiel Hintergrundfarbe */}
                     <Typography style={{'fontSize': '16px'}}>
                         {props.text}
                     </Typography>
@@ -66,7 +68,7 @@ function FloatTextCol(props) {
 // props: sectionItem, backgroundColor
 function SectionItemImageOnTheLeft(props) {
     return (
-        <Row justify='center' align='middle' style={{'backgroundColor': props.backgroundColor, 'height': '700px', 'padding': '100px'}}>
+        <Row justify='center' align='middle' style={{'backgroundColor': '#ffffff', 'height': '700px', 'padding': '100px'}}> {/* Beispiel: hellgrau */}
             <Row justify='center' align='middle' style={{'maxWidth': '2000px'}}>
                 <FloatImageCol image={props.sectionItem.image} />
                 <FloatTextCol title={props.sectionItem.title} text={props.sectionItem.text} />
@@ -78,7 +80,7 @@ function SectionItemImageOnTheLeft(props) {
 // props: sectionItem, backgroundColor
 function SectionItemImageOnTheRight(props) {
     return (
-        <Row justify='center' align='middle' style={{'backgroundColor': props.backgroundColor, 'height': '700px', 'padding': '100px'}}>
+        <Row justify='center' align='middle' style={{'backgroundColor': '#ffffff', 'height': '700px', 'padding': '100px'}}> {/* Beispiel: hellgrau */}
             <Row justify='center' align='middle' style={{'maxWidth': '2000px'}}>
                 <FloatTextCol title={props.sectionItem.title} text={props.sectionItem.text} />
                 <FloatImageCol image={props.sectionItem.image} />
@@ -178,7 +180,6 @@ function Desktop() {
                     </Col>
                 </Row>
                 </Row>
-
 
                 {/* endorsement list */}
                 <Row justify='center' align='middle' style={{'height': '700px', 'padding': '100px'}}>

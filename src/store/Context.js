@@ -32,10 +32,10 @@ export const initialState = {
     appURL: 'https://amplichat.com',
 
     appLogo: appLogo,
-    appName: 'AmpliChat',
+    appName: 'SightSnap',
 
-    coverTitle: 'Stay Connected at Events',
-    coverText: 'Chat with other attendees and make new friends at your favorite events and concerts.',
+    coverTitle: 'SightSnap - Discover New Horizons',
+    coverText: 'Explore, Collect, Remember -- Your Digital Travel Diary -- Collect Moments, Not Just Places',
     appleStoreBadge: appleStoreBadge,
     appleStoreLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',
     googlePlayBadge: googlePlayBadge,
@@ -43,8 +43,8 @@ export const initialState = {
 
     coverImage: coverImage,
 
-    endorsementTitle: `Hangout with your favorite people on your favorite apps`,
-    endorsementText: `AmpliChat powers conversations within DreamHub, VoiceQnA, VoiceMirror, BaZiPaiPai, and SpindriftHome.`,
+    endorsementTitle: `Your World, One Snap at a Time – Explore, Collect, and Relive Every Moment.`,
+    endorsementText: `SightSnap Turns Your Adventures into a Digital Collection of Unforgettable Experiences.`,
     endorsementList: [
         {
             title: `DreamHub: Visualized Stories`,
@@ -80,33 +80,33 @@ export const initialState = {
 
     sectionList: [
         {
-            'title': `Event Networking Made Easy`,
-            'text': `Tired of shouting over the music to talk to your friends at concerts and events? Our app makes it easy to chat with others in real-time, so you can enjoy the experience without missing out on socializing.`,
+            'title': `Explore Landmarks`,
+            'text': `Discover iconic places and hidden gems around the world.`,
             'image': guitar,
         },
         {
-            'title': `Expand Your Event Community`,
-            'text': `Meet like-minded people and share your excitement for the latest events and concerts.`,
+            'title': `Capture & Collect`,
+            'text': `Turn your travels into a digital collection of unforgettable moments.`,
             'image': event_phones,
         },
         {
-            'title': `Enhance Event Experience`,
-            'text': `Get instant access to a community of passionate event and concert-goers with our app! Chat with others before, during, and after the event to enhance your experience and create memories that last a lifetime.`,
+            'title': `Track Events & Experiences`,
+            'text': `Never miss a special moment—log your visits to festivals, sports, and more.`,
             'image': foggy_blue,
         },
         {
-            'title': `Chat with Attendees`,
-            'text': `Don't let social anxiety get in the way of enjoying your favorite events and concerts! With our app, you can chat with others and make new friends in a safe, welcoming environment.`,
+            'title': `Discover & Save Restaurants`,
+            'text': `Keep track of your favorite dining spots and must-visit eateries.`,
             'image': purple_phones,
         },
         {
-            'title': `Discover New Events and Friends`,
-            'text': `Our app is the perfect way to enhance your experience at events and concerts! Connect with others, share your thoughts and opinions, and discover new artists and events to love.`,
+            'title': `Personalized Insights`,
+            'text': `See your travel stats, milestones, and top destinations in one place.`,
             'image': purple_light,
         },
         {
-            'title': `Connect with Concert Fans`,
-            'text': `Whether you're a seasoned concert-goer or a first-time attendee, our app is the perfect way to connect with others and make the most of your experience. Download now and start chatting!`,
+            'title': `QR Code Magic`,
+            'text': `Scan, save, and relive every experience with a simple QR code.`,
             'image': concert_classic,
         },
     ],
